@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pag2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .foto-container {
+            position: relative;
+            margin: 10px;
+        }
+
+        .foto-container img {
+            height: 300px;
+            width: 250px;
+            cursor: pointer;
+            transition: filter 0.7s;
+        }
+
+        .foto-container img:hover {
+            filter: brightness(0.6);
+        }
+
+        .descricao {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: none;
+            /* Inicialmente oculto */
+            white-space: nowrap;
+        }
+
+        .foto-container:hover .descricao {
+            display: block;
+            /* Mostra a descrição ao passar o mouse sobre a imagem */
+        }
+
+        .foto {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding-top: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <br>
+
+    <br>
+    <div class="corpo">
+        <h1>Colégio</h1>
+        <br>
+        <div class="foto">
+            <div class="foto-container">
+                <img src="fotos/colegio1.png" alt="colegio1">
+                <span class="descricao">26/09/2022</span>
+            </div>
+
+            <div class="foto-container">
+                <img src="fotos/colegio2.png" alt="colegio2">
+                <span class="descricao">Não achei a Data <br>mas Te Amo!💖</span>
+            </div>
+
+            <div class="foto-container">
+                <img src="fotos/colegio3.png" alt="colegio3">
+                <span class="descricao">14/10/2022</span>
+            </div>
+
+            <div class="foto-container">
+                <img src="fotos/colegio4.png" alt="colegio4">
+                <span class="descricao">14/10/2022</span>
+            </div>
+        </div>
+
+        <br>
+        <p>
+            lembra daquela época, amor? No colégio, a gente começou a se conhecer de um jeito bem tranquilo,
+            trocando ideia nas aulas, rindo junto nos intervalos, essas coisas de amigo. Aos poucos, fui percebendo que
+            tava curtindo muito a sua companhia, sabe? E aí, naturalmente, a gente foi se aproximando mais e mais, até
+            que rolou aquele lance de querer ficar juntinho o tempo todo. Não foi nada super romântico, mas cada momento
+            que passamos juntos naquele colégio tem um lugarzinho especial no meu coração.
+        </p>
+
+
+        <br><br><br>
+        <div class="container">
+
+            <a href="pag3.html">
+                <input type="submit" value="Avançar">
+            </a>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

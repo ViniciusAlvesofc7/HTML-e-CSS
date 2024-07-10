@@ -1,0 +1,42 @@
+body {
+    background-color: blue;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    font-size: 20px;
+}
+
+.Menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 6px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+#cadastro {
+    margin: 100px;
+    padding: 5px;
+    background-color: white;
+    margin-top: 20%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    
+}
+footer{
+    background-color: white;
+    font-size: 20px;
+    
+}

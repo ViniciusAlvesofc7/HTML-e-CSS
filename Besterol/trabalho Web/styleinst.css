@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #101112;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 120px;
+    padding: 40px 4%;
+
+}
+
+.logo {
+    margin-left: 90px;
+    margin-right: 20px;
+
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    margin-top: -30px;
+}
+
+h1 {
+    color: white;
+    margin-left: 10px;
+    font-size: 40px;
+    margin-top: -30px;
+}
+
+header>.container {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+
+}
+
+.imagem-descricao {
+    margin-top: 50px;
+    display: flex;
+}
+
+.imagem-info {
+    margin-right: 20px;
+}
+
+.imagem-info img {
+    margin-left: 20px;
+    width: 350px;
+    height: 387.5px;
+}
+
+.descricao {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    flex: 1;
+    max-width: 750px;
+    margin: 0 150px 0 auto;
+}
+
+.descricao h2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: green;
+}
+
+.descricao p {
+    color: white;
+}
+
+.imagem-info p {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.botao-ok-btn {
+    background-color: #0dd141;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 300ms;
+    width: 300px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.botao-ok-btn:hover {
+    transform: scale(1.1);
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.25s ease-in-out, transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+
+.modal.showModal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    height: 200px;
+    width: 45%;
+
+}
+
+.fechar-modal {
+    color: #aaa;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.fechar-modal:hover,
+.fechar-modal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#conversar01 {
+    margin-top: 30px;
+    height: 30px;
+    width: 80px;
+    background-color: #0dd141;
+    color: white;
+    margin-left: 30px;
+
+}
+
+#conversar02 {
+    margin-top: 30px;
+    height: 30px;
+    width: 80px;
+    background-color: #0dd141;
+    color: white;
+    margin-left: 30px;
+
+}
+
+#conversar03 {
+    margin-top: 30px;
+    height: 30px;
+    width: 80px;
+    background-color: #0dd141;
+    color: white;
+    margin-left: 30px;
+
+}
+
+#conversar04 {
+    margin-top: 30px;
+    height: 30px;
+    width: 80px;
+    background-color: #0dd141;
+    color: white;
+    margin-left: 30px;
+
+}
+
+#fechar-modal-01 {
+    height: 30px;
+    width: 80px;
+}
+
+#fechar-modal-02 {
+
+    height: 30px;
+    width: 80px;
+
+}
+
+#fechar-modal-03 {
+
+    height: 30px;
+    width: 80px;
+
+}
+
+#fechar-modal-04 {
+
+    height: 30px;
+    width: 80px;
+
+}

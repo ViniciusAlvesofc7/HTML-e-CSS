@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pag2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .foto-container {
+            position: relative;
+            margin: 10px;
+        }
+
+        .foto-container img {
+            height: 300px;
+            width: 250px;
+            cursor: pointer;
+            transition: filter 0.7s;
+        }
+
+        .foto-container img:hover {
+            filter: brightness(0.6);
+        }
+
+        .descricao {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: none;
+            /* Inicialmente oculto */
+            white-space: nowrap;
+        }
+
+        .foto-container:hover .descricao {
+            display: block;
+            /* Mostra a descrição ao passar o mouse sobre a imagem */
+        }
+
+        .foto {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding-top: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <br>
+
+    <br>
+    <div class="corpo">
+        <h1>Alguns Passeios</h1>
+        <br>
+        <div class="foto">
+            <div class="foto-container">
+                <img src="fotos/shop1.png" alt="colegio1">
+                <span class="descricao">17/10/2022</span>
+            </div>
+
+            <div class="foto-container">
+                <img src="fotos/shop2.png" alt="colegio2">
+                <span class="descricao">31/07/2023</span>
+            </div>
+
+            <div class="foto-container">
+                <img src="fotos/shop3.png" alt="colegio3">
+                <span class="descricao">31/07/2023</span>
+            </div>
+
+            <div class="foto-container">
+                <img src="fotos/shop4.png" alt="colegio4">
+                <span class="descricao">31/07/2023</span>
+            </div>
+        </div>
+
+        <br>
+        <p>
+            Lembra dos nossos dias na praia? Sempre que íamos, adorávamos tomar uma água de coco geladinha, era uma delícia! Aquele clima de sol, mar e areia era revigorante, né? E além das praias, também curtíamos bastante nossas idas ao shopping, era sempre divertido passear por lá, ver as vitrines, dar risadas e aproveitar o tempo juntos. Esses momentos eram tão simples, mas sempre tão especiais ao teu lado! <strong>Temos que marcar pra sair dnv né? kkkk....</strong>
+        </p>
+        <br><br><br>
+        <div class="container">
+
+            <a href="pag6.html">
+                <input type="submit" value="Avançar">
+            </a>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

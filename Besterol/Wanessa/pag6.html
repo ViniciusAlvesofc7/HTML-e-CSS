@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pag2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .foto-container {
+            position: relative;
+            margin: 10px;
+        }
+
+        .foto-container img {
+            height: 300px;
+            width: 250px;
+            cursor: pointer;
+            transition: filter 0.7s;
+        }
+
+        .foto-container img:hover {
+            filter: brightness(0.6);
+        }
+
+        .descricao {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: none;
+            /* Inicialmente oculto */
+            white-space: nowrap;
+        }
+
+        .foto-container:hover .descricao {
+            display: block;
+            /* Mostra a descrição ao passar o mouse sobre a imagem */
+        }
+
+        .foto {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding-top: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <br>
+
+    <br>
+    <div class="corpo">
+        <h1>💖Feliz Dia dos Namorados!💖</h1>
+        <br>
+        <div class="foto">
+            <div class="foto-container">
+                <img src="fotos/novo3.png" alt="colegio2">
+                <span class="descricao">01/01/2023</span>
+            </div>
+
+            <div class="foto-container">
+                <img src="fotos/novo1.png" alt="colegio1">
+                <span class="descricao">26/02/2023</span>
+            </div>
+
+            <div class="foto-container">
+                <img src="fotos/novo2.png" alt="colegio3">
+                <span class="descricao">01/01/2024</span>
+            </div>
+
+            <div class="foto-container">
+                <img src="fotos/novo4.png" alt="colegio4">
+                <span class="descricao">31/01/2024</span>
+            </div>
+        </div>
+
+        <br>
+        <p>
+            Meu amor, sei que passamos por altos e baixos durante todo o nosso relacionamento, porém sempre com muito
+            amor, carinho e respeito. Você sabe que eu não sou muito bom com palavras e nem sei me expressar direito,
+            mas você sabe que eu lhe amo muito e que tento demonstrar todos os dias isso a você. Sei que não sou
+            perfeito ou a melhor pessoa do mundo, mas juro todos os dias dar o meu melhor ao seu lado. Posso ser meio
+            chato, ignorante às vezes, um pouco ciumento também, mas esse é meu jeito, sabe? Não posso te prometer que
+            nunca vou errar, te dar preocupações ou te estressar, mas eu lhe prometo que irei te amar com todas as
+            minhas forças para o resto da minha vida. Te amo, princesa! 💖
+        </p>
+        <br><br><br>
+        <div class="container">
+
+            <a href="https://www.youtube.com/watch?v=l-FxY25lYzY">
+                <input type="submit" value="Te Amo!💖">
+            </a>
+
+        </div>
+
+
+</body>
+
+</html>

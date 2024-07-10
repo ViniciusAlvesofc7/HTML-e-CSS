@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  perspective: 1000px; /* Adiciona perspectiva para o efeito de rotação */
+}
+
+form {
+  transition: transform 2s; /* Adiciona transição suave para a rotação */
+}
+
+form.rotated {
+  transform: rotateY(180deg); /* Gira o formulário lateralmente */
+}
+
+form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.success-message {
+  display: none;
+  background-color: #28a745;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}

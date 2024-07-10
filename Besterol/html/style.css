@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    background-image: url("futebol.png");
+}
+main {  
+    background-color: rgb(1, 54, 2);
+    border-radius: 10px;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    
+}
+p {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+
+}
+h1 {
+    color: rgb(255, 255, 255);
+    position: static;
+    margin: auto;
+    padding: 10px;
+    background-color: #014d15;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px #b6b3b3;
+}
+h2 {
+    color: orange;
+
+
+}
+h3 {
+    color: rgb(234, 255, 0);
+
+}
+
+
+
+
