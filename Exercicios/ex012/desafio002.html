@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio02</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col"><strong>Grupo</strong></th>
+                <th scope="col"><strong>Nomes</strong></th>
+                <th scope="colgroup" colspan="3"><strong>Filmes</strong></th>
+            </tr>
+        </thead>
+        <tfoot>
+            <th scope="row" colspan="4">Total</th>
+            <td>1000</td>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3"><strong>Mulheres</strong></th>
+                <td>Ana</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Hulk</td>
+                <td>Incepion</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Camila</td>
+                <td>The 100</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3"><strong>Homens</strong></th>
+                <td>João</td>
+                <td>Toy Story</td>
+                <td rowspan="2">Naruto</td>
+                <td>007</td>
+
+            </tr>
+            <tr>
+                <td>Vinicius</td>
+
+                <td>Green</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td>Theo</td>
+                <td>Pepa</td>
+                <td>Dora</td>
+                <td>Ben-10</td>
+            </tr>
+    </table>
+    </tbody>
+</body>
+
+</html>

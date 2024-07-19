@@ -13,43 +13,70 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
-        td, th {
+        td,
+        th {
             border: 1px solid black;
             padding: 10ox;
             text-align: center;
         }
 
-        thead, tfoot {
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        tbody>tr:nth-child(even) {
+            background-color: lightgray;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        thead,
+        tfoot {
             background-color: gray;
             color: white;
         }
 
-        .num{
+        .num {
             text-align: right;
         }
-
     </style>
 </head>
 
 <body>
     <h1>Uso de tabelas grandes</h1>
     <!--
+    :nth-child(2n) > FAZ O EFEITO ZEBRADO DE 2 EM 2
+             *ODD É IMPAR E EVEN É PAR*
+
          ANATOMIA PARA TABELAS GRANDES
          TABLE
+            CAPTION
             THEAD
                 tr, td, th
             TBODY
                 tr, td, th
             TFOOT
                 tr, td, th
+
+SEMPRE QUE FOR TITULO USE 'TH' SE FOR DADOS 'TD'
     -->
     <table>
+        <CAPtion>População da Unidades Federativas</CAPtion>
+
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -70,12 +97,664 @@
                 <td class="num">9.557.071</td>
             </tr>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            <tr>
+                <td>Vazio</td>
+                <td class="num">0000</td>
+            </tr>
+            
+
         </tbody>
         <tfoot>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td><strong>93.909.854</strong></td>
         </tfoot>
     </table>
+
+    
+    <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia consequuntur quaerat nesciunt rem unde quisquam alias. Placeat aliquid repellat quo eum, asperiores sequi eligendi pariatur quidem provident cum soluta blanditiis?</span><span>Sit, voluptatum consectetur. Molestias obcaecati officiis ab laboriosam, alias dolores quos. Facilis, iste blanditiis, nesciunt distinctio velit vel officia accusantium veritatis nobis corrupti omnis et ipsa quo! Ipsum, porro dolore?</span><span>Maxime nihil cum pariatur aspernatur consectetur commodi quam voluptatibus, rerum asperiores corrupti non voluptatem culpa veniam! Consequuntur quod, nam at repellendus commodi quaerat enim ut doloribus neque tempora iure aliquam?</span><span>Ex nulla ullam hic eaque placeat vitae quibusdam architecto suscipit porro, deleniti enim voluptatibus voluptas! Nisi dolores tempora impedit facere incidunt iste ducimus laborum dolorem! Vitae esse magnam impedit voluptate!</span><span>Autem asperiores perferendis dolore! Saepe odit maxime est sit voluptate tenetur harum, non, natus quod tempore amet, dignissimos eos numquam atque ut a! Enim, natus non corrupti qui dignissimos facere.</span></p>
+    <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nisi, fuga nemo ipsa minima voluptatem provident quis sint eius quidem assumenda dolore incidunt a quisquam cum nobis itaque accusamus repellat.</span><span>Fugit quod, deserunt eaque eligendi consequatur blanditiis voluptatum, esse cum explicabo voluptate molestiae ad culpa quo doloremque? Expedita earum, illo soluta et molestiae facilis nihil beatae modi nulla sunt blanditiis!</span><span>Consequatur magni ducimus officia facilis alias quae similique cum eum nisi non quos nulla architecto molestias reiciendis blanditiis provident, minima, in praesentium maiores. Facilis, incidunt sapiente quod iste odit corrupti?</span><span>Corrupti dolorum facilis officiis fugit eum voluptas ullam sed rem eligendi qui ipsa temporibus adipisci tempora deleniti numquam aliquam quae asperiores neque, libero et fugiat debitis ad? Amet, recusandae ipsam.</span><span>Dolore pariatur quas quisquam ipsum aperiam nemo eos dicta unde, recusandae, perferendis at repudiandae ipsa aut beatae voluptatem iste possimus rem quia sit dignissimos exercitationem eaque. Reiciendis at nulla facere.</span></p>
+    <p><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione debitis quibusdam architecto velit esse doloribus voluptatibus vitae quia, officiis optio, iure totam. Ducimus excepturi incidunt asperiores ipsum fugit iste obcaecati?</span><span>Facere deserunt voluptate rerum at sed adipisci, sit soluta tempora? Amet quaerat ullam voluptatibus sint modi laudantium debitis. Incidunt alias labore eveniet dicta voluptatibus, voluptatum in quae omnis eum minima.</span><span>Provident dolorum voluptate ullam vel deserunt quibusdam. Ratione iure, harum nihil qui, maiores reiciendis quis, enim unde laudantium aliquid sapiente perferendis eius nam a repellendus obcaecati officia optio repudiandae? At?</span><span>Natus expedita rerum, facilis fugit enim in rem et maiores magni! Rerum explicabo autem adipisci ipsum vero veritatis ea molestiae dicta a inventore? Necessitatibus, voluptatem aut? Repellat repudiandae nesciunt velit!</span><span>Dolores, facere corporis odio dolore reiciendis accusamus voluptates necessitatibus recusandae nostrum blanditiis fuga obcaecati, placeat accusantium dignissimos dolorem nisi hic voluptatibus tempore quasi consequatur! Repudiandae cumque placeat error magnam saepe.</span></p>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam est, dignissimos magnam officia unde ipsum numquam, error a veritatis animi maxime, et porro. Ad quia dolores harum soluta officia accusamus!</span><span>Molestiae voluptatem accusantium quis fuga, sint fugiat nihil ipsa. Illo impedit, consectetur, alias cum modi unde sit aut porro fuga nostrum totam, minus illum nemo. Et doloribus officiis deleniti eaque?</span><span>Alias numquam animi non soluta similique vitae saepe modi aperiam itaque libero iure est, assumenda blanditiis perspiciatis possimus amet minima voluptatum sit maxime exercitationem autem harum! Obcaecati necessitatibus rem repudiandae.</span><span>Inventore optio explicabo deleniti error velit dolores voluptatibus dicta quas omnis quo, pariatur, earum nesciunt, ab dolorum iusto officiis temporibus mollitia similique. Deserunt architecto et voluptatibus culpa assumenda, sint rerum.</span><span>Eaque at dolorem a eius? Nam molestiae minima asperiores! Fugiat perferendis deserunt nobis dolorem natus. Accusamus nihil assumenda expedita amet fugiat sapiente ut quos, iusto perspiciatis, ipsum, deleniti vel laborum!</span></p>
+    <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium magni tempore dolorem aliquam veniam hic explicabo excepturi expedita iure deserunt quos molestias sit omnis recusandae nam rerum, a aperiam dolore.</span><span>Quasi accusantium dolor accusamus est incidunt saepe cupiditate sint in, vero voluptatem corrupti quam consectetur perspiciatis illum placeat amet et. Optio dicta porro dolor aspernatur veniam doloremque, voluptatibus eius quis.</span><span>Voluptatibus deserunt numquam quis sequi quod minus reiciendis rerum incidunt modi quo, molestiae debitis similique nihil ullam quasi iste dolorum tenetur animi natus obcaecati repudiandae dolore corporis nulla eligendi? Doloremque.</span><span>Quia alias sapiente delectus obcaecati id suscipit neque nostrum dolorum aliquid. In iusto dignissimos exercitationem. Quidem magnam obcaecati omnis consequuntur iure deleniti pariatur. Fugiat corrupti quisquam dolorem eius, labore facilis?</span><span>Optio odio, dolore, quaerat, maiores illo distinctio dolorum ipsam voluptatem beatae perferendis voluptate at ad molestias enim provident itaque fugit officiis totam et vitae. Odit labore culpa doloribus maxime atque?</span></p>
+
 </body>
 
 </html>
