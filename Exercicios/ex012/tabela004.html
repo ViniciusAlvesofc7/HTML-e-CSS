@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .destaque{
+            background-color: greenyellow;
+        }
+
+        .cnome{
+            background-color: chartreuse;
+        }
+
+        .cgrupo{
+            background-color: yellow;
+        }
+
+        .cprof{
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana maria</td>
+            <td>F</td>
+            <td>42</td>
+            <td>Costureira</td>
+        </tr>
+        <tr>
+            <td>Lucia</td>
+            <td>F</td>
+            <td>70</td>
+            <td>Aposentada</td>
+        </tr>
+        <tr>
+            <td>Bruna</td>
+            <td>F</td>
+            <td>36</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>Neuza</td>
+            <td>F</td>
+            <td>40</td>
+            <td>Confeiterira</td>
+        </tr>
+        <tr>
+            <td>Vinicius</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Nonato</td>
+            <td>M</td>
+            <td>53</td>
+            <td>Taxista</td>
+        </tr>
+    </table>
+</body>
+</html>
